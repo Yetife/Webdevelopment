@@ -1,0 +1,45 @@
+#firstdiv
+{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+ul li
+{
+    display: inline;
+    font-size: 24px;
+    padding-right: 100px;
+}
+#seconddiv img
+{
+    width: 100%;
+}
+.firstdiv
+{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width: 25%;
+}
+.seconddiv
+{
+    background-color: blue;
+    padding: 30px;
+    width: 25%;
+}
+.thirddiv
+{
+    background-color: grey;
+    padding: 30px;
+    width: 25%;
+}
+.fourthdiv
+{
+    background-color: red;
+    padding: 30px;
+    width: 25%;
+}
+body
+{
+    padding: 10%;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: lavender;
+    font-family: sans-serif;
+    position: relative;
+    /*width: 40%;*/
+    padding: 25%;
+
+}
+
+.firstheading {
+    color: darkturquoise; 
+}
+.heading3
+{
+    color: greenyellow;
+}
+small
+{
+    font-weight: lighter;
+    font-size: small;
+}
+button
+{
+    background-color: chartreuse;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-color: chartreuse;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#firstdiv
+{
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div
+{
+    color: white;
+}
+#seconddiv
+{
+    background-color: lightseagreen;
+    padding-left: 30px;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+}
+#thirddiv
+{
+    background-color: darkturquoise;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+}
+.firstParagraph
+{
+    color: darkgrey;
+}
