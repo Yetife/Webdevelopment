@@ -1,0 +1,19 @@
+.lastrow
+{
+    color: darkred;
+}
+.col
+{
+    background-color: burlywood;
+}
+.col1
+{
+    background-color: white;
+}
+table
+{
+    border-collapse: collapse;
+    background-color: tan;
+    width: 30%;
+    border: 1px solid;
+}

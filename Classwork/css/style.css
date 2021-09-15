@@ -1,0 +1,48 @@
+h1{ font-size: 30px;}
+
+h3{ font-size: 24px; 
+    font-weight: bold}
+
+p{  font-size: 30px; 
+    color: mediumpurple; 
+    width: 100%; 
+    height: 50%}
+
+.code
+{
+    color: red;
+}
+#coding
+{
+    color: blue;
+}
+.seconddiv
+{
+    background-color: darksalmon;
+    color: blueviolet;
+}
+a:link{
+    text-decoration: underline;
+    color: blue
+}
+a:visited{
+    text-decoration: underline;
+    color: purple
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold
+}
+a:active { background-color: yellow;}
+
+[title]
+{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+   text-decoration: none;
+}
+
+body{
+     background-color: blanchedalmond;
+    }

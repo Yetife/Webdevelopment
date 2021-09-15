@@ -1,0 +1,26 @@
+figcaption
+{
+    /*position: absolute;*/
+    /*top: 250px;*/
+    /*left: 480px;*/
+    /*z-index: 1;*/
+    /*background-color: darkcyan;*/
+}
+img
+{
+    width: 70%;
+    height: 40%;
+}
+.first
+{
+    clear: left;
+}
+figure
+{
+    /*position: absolute;*/
+    /*top: 150px;*/
+    /*left: 200px;*/
+    /*z-index: -1;*/
+    width: 300px;
+    float: left;
+}

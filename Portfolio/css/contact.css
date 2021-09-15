@@ -1,0 +1,27 @@
+input
+{
+    border: 1px solid;
+    padding: 10px;
+    margin: auto;
+}
+textarea
+{
+    padding: 20px;
+    font-weight: lighter;
+    border: 1px solid black;
+}
+body
+{
+    font-family: sans-serif;
+    font-weight: bold;
+   background-image: url(/Portfolio/images/index.jpeg);
+   background-repeat: no-repeat;
+   background-size: 30%;
+   height: 20px;
+}
+button
+{
+  width: 20%;
+  margin: auto;
+  position: relative;
+}

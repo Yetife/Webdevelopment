@@ -1,0 +1,13 @@
+p{ color: red}
+.ex1{ 
+    display: none;
+}
+.ex2{ 
+    display: inline;
+}
+.ex3{ 
+    display: block;
+}
+.ex4{ 
+    display: inline-block;
+}

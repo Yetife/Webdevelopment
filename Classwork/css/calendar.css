@@ -1,0 +1,19 @@
+tr,th
+{
+    border-collapse: inherit;
+}
+.code
+{
+    background-color: darkcyan;
+}
+table
+{
+    background-color: mintcream;
+    border: 1px solid gray;
+    width: 20%;
+}
+caption
+{
+    background-color: darkgreen;
+    padding: 5px;
+}

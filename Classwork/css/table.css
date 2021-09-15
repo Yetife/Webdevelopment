@@ -1,0 +1,19 @@
+table
+{
+    border-collapse: collapse;
+}
+tr:hover
+{
+    background-color: lightslategray;
+}
+tr:nth-child(even)
+{
+    background-color: darkgray;
+}
+img
+{
+    width: 30%;
+}
+body {
+    background-color: moccasin;
+}
