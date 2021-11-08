@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
             let{first_name, password} = registerObject
             if(repository.findIndex(user => user.first_name === first_name) !== -1) {
                 if (repository.find(user => user.first_name === first_name).password === password) {
+                    localStorage.setItem("userName", JSON.stringify(registerObject))
                     location.href = "home.html"
                 } else {
                     alert("please enter a correct password");
@@ -35,4 +36,5 @@ document.addEventListener("DOMContentLoaded", ()=> {
     // }
     Array.from(inputFields).forEach((inputField) =>
         inputField.addEventListener('input', (e) => handleInputChange(e)))
+
 })
