@@ -118,7 +118,7 @@ input[type="password"] {
     padding-left: 15px;
     padding-right: 15px;
   }
-.top_info h3 {
+.top_info #user_name {
     font-size: 18px;
     color: #004C4C;
     font-weight: bold;
