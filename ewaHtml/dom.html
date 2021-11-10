@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    #myDiv1, #myDiv2 {
+        background-color: coral;
+        padding: 50px;
+    }
+
+    #myP1, #myP2 {
+        background-color: white;
+        font-size: 20px;
+        border: 1px solid;
+        padding: 20px;
+    }
+</style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+</head>
+<body>
+
+<h2>JavaScript addEventListener()</h2>
+
+<div id="myDiv1">
+    <h2>Bubbling:</h2>
+    <p id="myP1">Click me!</p>
+</div><br>
+
+<div id="myDiv2">
+    <h2>Capturing:</h2>
+    <p id="myP2">Click me!</p>
+</div>
+<!--<button>Act-once button</button>-->
+<!--<button>Click me any way you want</button>-->
+<!--<p>A paragraph with a <button>button</button>.</p>-->
+<p>This page turns violet when you hold the V key.</p>
+
+<a href="https://developer.mozilla.org/">MDN</a>
+<button>A</button>
+<button>B</button>
+<button>C</button>
+<script>
+    document.getElementById("myP1").addEventListener("click", function() {
+        alert("You clicked the white element!");
+    }, false);
+
+    document.getElementById("myDiv1").addEventListener("click", function() {
+        alert("You clicked the orange element!");
+    }, false);
+
+    document.getElementById("myP2").addEventListener("click", function() {
+        alert("You clicked the white element!");
+    }, true);
+
+    document.getElementById("myDiv2").addEventListener("click", function() {
+        alert("You clicked the orange element!");
+    }, true);
+
+    // let button = document.querySelector("button");
+    // button.addEventListener("click", () => {
+    //     console.log("Button clicked.");
+    // });
+
+    // let button = document.querySelector("button");
+    // button.addEventListener("mousedown", event => {
+    //     if (event.button === 0) {
+    //         console.log("Left button");
+    //     } else if (event.button === 1) {
+    //         console.log("Middle button");
+    //     } else if (event.button === 2) {
+    //         console.log("Right button");
+    //     }
+    // });
+    // let para = document.querySelector("p");
+    //
+    // let button = document.querySelector("button");
+    // para.addEventListener("mousedown", () => {
+    //     console.log("Handler for paragraph.");
+    // });
+    // button.addEventListener("mousedown", event => {
+    //     console.log("Handler for button.");
+    //     if (event.button === 2) event.stopPropagation();
+    // });
+
+    document.body.addEventListener("click", event => {
+        if (event.target.nodeName === "BUTTON") {
+            console.log("Clicked", event.target.textContent);
+        }
+    })
+
+    let link = document.querySelector("a");
+    link.addEventListener("click", event => {
+        console.log("Nope.");
+        event.preventDefault();
+    });
+
+    // window.addEventListener("keydown", event => {
+    //     if (event.key === "v") {
+    //         document.body.style.background = "violet";
+    //     }
+    // });
+    window.addEventListener("keyup", event => {
+        if (event.key === "v") {
+            document.body.style.background = "";
+        }
+    });
+    window.addEventListener("keydown", event => {
+        if (event.key === " " && event.ctrlKey) {
+            console.log("Continuing!");
+        }
+    });
+</script>
+</body>
+</html>
