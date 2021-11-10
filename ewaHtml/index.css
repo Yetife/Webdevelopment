@@ -89,7 +89,7 @@ input[type="password"] {
     margin-bottom: 10px;
     background-color: #E8FFFC;
 }
-.register_btn{
+.register_btn, .login_btn{
     background-color: #004C4C;
     color: rgb(240, 240, 240);
     padding: 20px 20px;
